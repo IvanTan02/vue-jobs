@@ -1,18 +1,5 @@
-# vue-crash-course
-
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+# Vue Jobs
+A simple Vue.js job portal built with JSON server.
 
 ## Project Setup
 
@@ -23,7 +10,13 @@ npm install
 ### Compile and Hot-Reload for Development
 
 ```sh
+# Run Vue.js app
 npm run dev
+```
+
+```sh
+# Run JSON server
+npm run server
 ```
 
 ### Type-Check, Compile and Minify for Production
@@ -31,3 +24,11 @@ npm run dev
 ```sh
 npm run build
 ```
+
+## Project Preview
+![Home Page](https://github.com/user-attachments/assets/0d8ef324-0a3a-4cec-9c5a-ffbd2a186ccf)
+![Browse Jobs](https://github.com/user-attachments/assets/eb064b3e-d06e-46b8-9e16-db552634224e)
+![View Job](https://github.com/user-attachments/assets/7fb49a2f-0f4a-4c4a-9997-1294651cd22e)
+![Add / Edit Job](https://github.com/user-attachments/assets/e85237d7-b817-43a2-9608-25ba75e5b20a)
+
+
